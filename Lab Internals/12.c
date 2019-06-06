@@ -15,7 +15,7 @@ int32_t main()
 	{
 		num=DrvGPIO_GetPortBits(E_GPA);
 		if(num==0xffff)
-		 	print_lcd(1,"!grounded");
+		 	print_lcd(1,"not grounded");
 		else
 		 	print_lcd(1,"grounded");
 	}
